@@ -1,0 +1,100 @@
+@import 'animate.css';
+@font-face {
+    font-family: 'NatashawalkerRegular-lgede.otf';
+    src: url('./Assets/fonts/NatashawalkerBold-vmevO.otf') format('opentype'); /* Adjust the file path and format accordingly */
+  }
+.home 
+{
+    background-image: url(./Assets/images/pexels-ella-olsson-572949-1640770.jpg) !important;
+    background-position: center center !important;
+    background-size: cover !important; 
+    height:75vh;
+}
+
+.layer
+{
+    height: 75vh;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+body{
+  font-family: 'NatashawalkerRegular-lgede.otf' !important;
+    width: 100%;
+    height: 100vh;
+  }
+.shade3{
+    color: #363636;
+}
+.shade1{
+    background-color: #FFFCF7;
+}
+.shade2{
+    background-color: #FDEED9;
+}
+.primary{
+    color: #E36824;
+}
+.head{
+  color: #17c772;
+}
+.primary2{
+    background-color: #E36824;
+}
+.secondary{
+    background-color: #5B7C75;
+}
+.secondary2{
+  color: #5B7C75;
+}
+.stroke{
+    background-color: #ECECEC;
+}
+
+.shadowBg{
+    background-color: #dfdfdf;
+}
+.shadowBg1{
+  background-color: #f0eded;
+}
+.ingredients{
+border: 4px dashed #363636;
+}
+
+.recipe-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 6px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 200px;
+  }
+  
+  .recipe-image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+    align-self: flex-start; /* Align image to the top */
+  }
+  
+  .recipe-image {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%; /* to make it circular */
+    object-fit: cover;
+  }
+  
+  .recipe-details {
+    text-align: center;
+  }
+  
+  .recipe-title {
+    margin-bottom: 8px;
+  }
+  
+  .recipe-description {
+    margin-bottom: 8px;
+  }
+  
+ 
